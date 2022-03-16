@@ -1,1 +1,1 @@
-https://Kyblnec.github.io/rsschool-cv/cv
+https://Kyblnec.github.io/rsschool-cv/
