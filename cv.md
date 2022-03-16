@@ -30,3 +30,21 @@ function even_or_odd (number) {
     return "Odd";
 }
 ```
+---
+## *Work experience:*
+* ##### Factory engineer
+* ##### Taxi driver
+* ##### Сheese maker
+---
+## *Education:*
+---
+* ##### Brest State Technical University (2013-2018)
+    + ##### Engineer Technologist
+* ##### Courses 
+    + ##### HTML (ru.code-basics)  
+    + ##### CSS (ru.code-basics)
+    + ##### JavaScript (ru.code-basics)
+---
+## *English:*
+---
+##### A1
