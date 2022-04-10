@@ -4,7 +4,6 @@ body {
 }
 
 .topBackground {
-  min-width: 1280px;
   position: center;
 }
 
@@ -260,12 +259,30 @@ h3 {
   color: #4C4C4C;
 }
 
+.grayBackground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 1186px;
+  height: 890px;
+  top: 1498px;
+  padding-left: 94px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* color-light-l */
+  background: #F6F6F6;
+}
+
 .ourFriends {
   position: absolute;
   width: 400px;
   height: 90px;
-  left: 760px;
-  top: 1576px;
+  left: 441px;
+  top: 79px;
   margin: 0;
   white-space: wrap;
   /* h3 */
@@ -289,8 +306,152 @@ h3 {
   width: 400px;
   height: 90px;
   left: 760px;
-  top: 2576px;
+  top: 2578px;
   margin: 0;
   white-space: wrap;
+}
+
+.card1 {
+  background-color: #FAFAFA;
+  height: 435px;
+  top: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 9px;
+}
+
+.card2 {
+  background-color: #FAFAFA;
+  height: 435px;
+  top: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 9px;
+}
+
+.card3 {
+  background-color: #FAFAFA;
+  height: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 9px;
+}
+
+.pet-name {
+  background-color: #FAFAFA;
+  width: 74px;
+  height: 43px;
+  left: 98px;
+  top: 300px;
+  /* pets-card-title */
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
+
+.btn {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px 45px;
+  width: 187px;
+  height: 52px;
+  white-space: nowrap;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  /* identical to box height, or 22px */
+  letter-spacing: 0.06em;
+  /* color-dark-3xl */
+  color: #292929;
+}
+
+.btnGet {
+  background-color: #F1CDB3;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px 45px;
+  width: 261px;
+  height: 52px;
+  white-space: nowrap;
+  left: 830px;
+  top: 2220px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  /* identical to box height, or 22px */
+  letter-spacing: 0.06em;
+  /* color-dark-3xl */
+  color: #292929;
 }
 /*# sourceMappingURL=style.css.map */
