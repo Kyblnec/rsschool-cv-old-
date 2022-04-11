@@ -102,7 +102,7 @@ header {
     display: flex;
     position: absolute;
     width: 1186px;
-    height: 890px;
+    height: 1342px;
     top: 120px;
     padding-left: 94px;
     // flex-direction: row;
@@ -174,6 +174,72 @@ header {
     border-radius: 9px;
 }
 
+.card4 {
+    background-color: #FAFAFA;
+    // width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.card5 {
+    background-color: #FAFAFA;
+    // width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.card6 {
+    background-color: #FAFAFA;
+    // width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.card7 {
+    background-color: #FAFAFA;
+    // width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.card8 {
+    background-color: #FAFAFA;
+    // width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+
+}
+
+.positionCard {
+    top: 230px;
+    left: 20px;
+    right: 20px;
+    height: 930px;
+    position: absolute;
+    display: flex;
+    // align-items: flex-end;
+    // flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
 .pet-name {
     background-color: #FAFAFA;
     width: 74px;
@@ -230,37 +296,26 @@ header {
     color: #292929;
 }
 
-.btnGet {
+.sliderPageOne {
     background-color: #F1CDB3;
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 15px 45px;
-    width: 261px;
-    height: 52px;
-    white-space: nowrap;
-    left: 510px + 320px;
-    top: 1315px + 905px;
+    padding: 15px;
+    font-size: 15px;
 
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 614px + 320px;
+    top: 1190px + 120px;
+
+    /* color-primary */
 
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 130%;
-    /* identical to box height, or 22px */
-
-    letter-spacing: 0.06em;
-
-    /* color-dark-3xl */
-
-    color: #292929;
 }
 
 .sliderRight {
@@ -268,15 +323,38 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 13px;
+    font-size: 15px;
 
 
     position: absolute;
     width: 52px;
     height: 52px;
-    left: 1190px + 320px;
-    top: 1918px;
+    left: 686px + 320px;
+    top: 1190px + 120px;
+    ;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.twoSliderRight {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+    font-size: 15px;
+
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 758px + 320px;
+    top: 1190px + 120px;
 
     /* color-primary */
 
@@ -290,244 +368,44 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 13px;
+    font-size: 15px;
 
 
     position: absolute;
     width: 52px;
     height: 52px;
-    left: 39px + 320px;
-    top: 1918px;
-
+    left: 542px + 320px;
+    top: 1190px + 120px;
+    color: #CDCDCD;
     /* color-primary */
 
-    border: 2px solid #F1CDB3;
+    border: 2px solid #CDCDCD;
     box-sizing: border-box;
     border-radius: 100px;
 }
 
-.howHelp {
-    position: absolute;
-    width: 310px;
-    height: 90px;
-    left: 482px + 320px;
-    top: 1510px + 908px;
-
-    /* h3 */
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    /* or 45px */
-
+.twoSliderLeft {
+    background-color: #F6F6F6;
     display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    /* color-dark-l */
-
-    color: #545454;
-}
-
-.positionMiniCard {
-    top: 2578px;
-    left: 308px;
-    width: 1280px;
-    height: 43px;
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-
-
-}
-
-.miniCardHelpShelter {
-    // position: absolute;
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    width: 210px;
-    height: 143px;
-    margin: 10px;
-    // left: 1110px;
-    // top: 2700px;
-
-
-}
-
-.textHelpShelter {
-    /* Text */
-    // position: absolute;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 82px;
-    height: 23px;
-    left: 0px;
-    top: 90px;
-    white-space: nowrap;
-    margin: 0;
-
-    /* h4 */
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 115%;
-    /* identical to box height, or 23px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    /* color-dark-l */
-
-    color: #545454;
-}
-
-.grayBackgroundSecond {
-    display: flex;
-    position: absolute;
-    width: 1186px;
-    height: 810px;
-    top: 2076px+ 908px;
-    padding-left: 94px;
-    // flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    /* color-light-l */
-
-    background: #F6F6F6
-}
-
-.sadDog {
-    position: absolute;
-    width: 505px;
-    height: 261px;
-    left: 183px;
-    top: 91px;
-}
-
-.textDonation {
-    /* Heading */
-
-    position: absolute;
-    width: 300px;
-    height: 90px;
-    left: 718px;
-    top: 81px;
-    margin: 0;
-
-    /* h3 */
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    /* or 45px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-
-    /* color-dark-l */
-
-    color: #545454;
-}
-
-.nameBank {
-    position: absolute;
-    width: 307px;
-    height: 17px;
-    left: 718px;
-    top: 191px;
-    margin: 0;
-    white-space: nowrap;
-
-
-    /* h5 */
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
+    padding: 13px;
     font-size: 15px;
-    line-height: 110%;
-    /* identical to box height, or 17px */
 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-
-    /* color-dark-l */
-
-    color: #545454;
-}
-
-.numberCardDonation {
-    background-color: #F1CDB3;
     position: absolute;
-    width: 319px;
-    height: 23px;
-    left: 718px;
-    top: 227px;
-    padding: 10px 15px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    white-space: nowrap;
+    width: 52px;
+    height: 52px;
+    left: 470px + 320px;
+    top: 1190px + 120px;
+    color: #CDCDCD;
+    /* color-primary */
 
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 115%;
-    /* identical to box height, or 23px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-
-    /* color-dark-l */
-
-    color: #545454;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 100px;
 }
 
-.textAfterDonation {
-    position: absolute;
-    width: 380px;
-    height: 72px;
-    left: 718px;
-    top: 290px;
-    margin: 0;
-
-    /* donation-description */
-
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
-
-    display: flex;
-    align-items: center;
-
-    /* color-dark-m */
-
-    color: #B2B2B2;
-}
 
 footer {
     /* footer-gradient-background */
@@ -536,7 +414,7 @@ footer {
     height: 350px;
     left: 320px;
     right: 0%;
-    top: 2537px + 908px;
+    top: 1342px + 120px;
 
     /* footer-gradient-background */
 
@@ -597,7 +475,7 @@ footer {
     width: 272px;
     height: 23px;
     left: 30px + 320px;
-    top: 2728px + 908px;
+    top: 191px + 1462px;
     display: flex;
     align-items: center;
     padding: 0;
@@ -625,7 +503,7 @@ footer {
     width: 260px;
     height: 23px;
     left: 30px + 320px;
-    top: 2801px + 908px;
+    top: 263px + 1462px;
     display: flex;
     align-items: center;
     padding: 0;
@@ -653,7 +531,7 @@ footer {
     width: 314px;
     height: 23px;
     left: 468px + 320px;
-    top: 2727px + 908px;
+    top: 188px + 1462px;
     display: flex;
     align-items: center;
     padding: 0;
@@ -681,7 +559,7 @@ footer {
     width: 290px;
     height: 23px;
     left: 468px + 320px;
-    top: 2800px + 908px;
+    top: 260px + 1462px;
     display: flex;
     align-items: center;
     padding: 0;
@@ -702,7 +580,11 @@ footer {
 
     color: #F1CDB3;
 }
-
+.otherColor {
+    color: #F1CDB3;
+    text-decoration: none;
+        
+}
 .btnActivBackground {
     &:hover {
         cursor: pointer;
