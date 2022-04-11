@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>shelter</title>
+    <title>Shelter</title>
     <link href="style.css" href="normalize.css" rel="stylesheet" />
 
 <body>
@@ -13,9 +13,9 @@
 
         <div class="navMenu">
             <div class="nav white">About the shelter</div>
-            <div class="nav">Our pets</div>
-            <div class="nav">Help the shelter</div>
-            <div class="nav">Contacts</div>
+            <div class="nav"><a class="aLinkTextHover" href="#Our friends">Our pets</a></div>
+            <div class="nav"><a class="aLinkTextHover" href="#Help">Help the shelter</a></div>
+            <div class="nav"><a class="aLinkTextHover" href="#Contacts">Contacts</a></div>
         </div>
     </header>
 
@@ -24,7 +24,7 @@
         with an extremely wide and open heart. He or she will
         love you more than anybody else in the world, you will see!</p>
     <div class="button_primary">
-        <button class="btnMakeFriend">Make a friend</button>
+        <button class="btnMakeFriend btnActivBackground"><a class="aLinkBtn" href="#Our friends">Make a friend</a></button>
     </div>
 
     <img div class="dog" src="../../assets/images/start-screen-puppy.png" alt="sweet dog" />
@@ -45,20 +45,20 @@
         to the pets and would hardly ever leave them alone.</p>
 
     <div class="grayBackground">
+         
+        <h3 id = "Our friends" class="ourFriends">Our friends who <br> are looking for a house</h3>
 
-        <h3 class="ourFriends">Our friends who <br> are looking for a house</h3>
-
-        <div class="card1">
+        <div class="card1 activCard">
             <img src="../../assets/images/pets-katrine.png">
-            <p class="pet-name">Katrine</p>
-            <button class="btn">Learn more</button>
+            <p class="pet-name activCard">Katrine</p>
+            <button class="btn activCard">Learn more</button>
         </div>
-        <div class="card2">
+        <div class="card2 activCard">
             <img src="../../assets/images/pets-jennifer.png">
             <p class="pet-name">Jennifer</p>
             <button class="btn">Learn more</button>
         </div>
-        <div class="card3">
+        <div class="card3 activCard">
             <img src="../../assets/images/pets-woody.png">
             <p class="pet-name">Woody</p>
             <button class="btn">Learn more</button>
@@ -69,10 +69,10 @@
             <div class="card3"></div>
         </div>
     </div>
-    <button class="btnGet">Get to know the rest</button>
-    <button class="sliderRight">🠖</button>
-    <button class="sliderLeft">🠔</button>
-    <h3 class="howHelp">How you can help our shelter</h3>
+    <button class="btnGet btnActivBackground">Get to know the rest</button>
+    <button class="sliderRight activCard">🠖</button>
+    <button class="sliderLeft activCard">🠔</button>
+    <h3 id = "Help" class="howHelp">How you can help our shelter</h3>
     <div class="positionMiniCard">
         <div class="miniCardHelpShelter">
             <img src="../../assets/icons/Vector.png">
@@ -126,7 +126,7 @@
         <p class="nameBank">Name of the bank / Type of bank account</p>
         <div class="numberCardDonation">
         <img src="../../assets/images/credit-card.svg" alt="small card" />
-        <p>8380 2880 8028 8791 7435</p>
+        <a class="aLinkBtn" href="##"><p>8380 2880 8028 8791 7435</p></a>
         </div>
         <p class="textAfterDonation">Legal information and lorem ipsum dolor sit
              amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis 
@@ -136,31 +136,34 @@
 
     <footer>
 
-        <h3 class="footerBigTxt positionLeft">For questions and suggestions</h3>
+        <h3 id = "Contacts" class="footerBigTxt positionLeft">For questions and suggestions</h3>
         <h3 class="footerBigTxt positionRight">We are waiting for your visit</h3>
         <img class="footerDog" src="../../assets/images/footer-puppy.png" alt="sweet dog" />
 
     </footer>
 
-    <div class="emailFooter">
-        <img src="../../assets/icons/mail.png" alt="letter" />
+    <a href="https://www.google.com/intl/ru/gmail/about/"
+    target="_blank"><div class="emailFooter  btnActiv">
+        <img src="../../assets/icons/mail.png" alt="letter"/>
         <p>email@shelter.com</p>
-    </div>
+    </div></a>
 
-    <div class="numberPhoneFooter">
+    <a href="tel: +13 674 567 75 54"><div class="numberPhoneFooter  btnActiv">
         <img src="../../assets/icons/phone.png" alt="phone" />
         <p>+13 674 567 75 54</p>
-    </div>
+    </div></a>
 
-    <div class="addressFooter">
+    <a href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2"
+    target="_blank"><div class="addressFooter  btnActiv">
         <img src="../../assets/icons/pin.png" alt="point" />
         <p>1 Central Street, Boston<br> (entrance from the store)</p>
-    </div>
+    </div></a>
 
-    <div class="addressCityFooter">
+    <a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D0%B5%D0%B2"
+    target="_blank"><div class="addressCityFooter  btnActiv">
         <img src="../../assets/icons/pin.png" alt="point" />
         <p>18 South Park, London </p>
-    </div>
+    </div></a>
 
 
 </body>

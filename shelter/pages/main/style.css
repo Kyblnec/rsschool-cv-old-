@@ -896,4 +896,44 @@ footer {
   /* color-primary */
   color: #F1CDB3;
 }
+
+.btnActivBackground:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border: 3px solid #F1CDB3;
+}
+
+.btnActiv:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.activCard:hover {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+
+.activCard:hover .pet-name {
+  background-color: #F1CDB3;
+}
+
+.activCard:hover .btn {
+  background-color: #F1CDB3;
+  border: 2px solid #FFFFFF;
+}
+
+.aLinkTextHover {
+  color: #CDCDCD;
+  text-decoration: none;
+}
+
+.aLinkTextHover:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.aLinkBtn {
+  color: #292929;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */

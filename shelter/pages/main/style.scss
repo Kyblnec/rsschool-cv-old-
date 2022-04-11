@@ -89,6 +89,7 @@ p.subtitile {
     line-height: 160%;
 
     color: #CDCDCD;
+
 }
 
 .white {
@@ -97,6 +98,7 @@ p.subtitile {
 
 .nav {
     flex: 1 0 auto;
+
 }
 
 .dog {
@@ -183,6 +185,7 @@ h2 {
     letter-spacing: 0.06em;
     /* color-dark-3xl */
     color: #292929;
+
 }
 
 .catAndDog {
@@ -721,8 +724,8 @@ footer {
     /* footer-gradient-background */
 
     background:
-    radial-gradient(110.67% 538.64% at 5.73% 50%,
-     #513D2F 0%, #1A1A1C 100%),
+        radial-gradient(110.67% 538.64% at 5.73% 50%,
+            #513D2F 0%, #1A1A1C 100%),
         #211F20;
 }
 
@@ -770,6 +773,7 @@ footer {
     left: 940px;
     top: 40px;
 }
+
 .emailFooter {
 
     position: absolute;
@@ -780,8 +784,8 @@ footer {
     display: flex;
     align-items: center;
     padding: 0;
-    
-    justify-content:space-around;
+
+    justify-content: space-around;
     // white-space: nowrap;
 
     font-family: 'Georgia';
@@ -794,7 +798,7 @@ footer {
     letter-spacing: 0.06em;
 
     /* color-primary */
-    
+
     color: #F1CDB3;
 }
 
@@ -808,8 +812,8 @@ footer {
     display: flex;
     align-items: center;
     padding: 0;
-    
-    justify-content:space-around;
+
+    justify-content: space-around;
     // white-space: nowrap;
 
     font-family: 'Georgia';
@@ -822,11 +826,12 @@ footer {
     letter-spacing: 0.06em;
 
     /* color-primary */
-    
+
     color: #F1CDB3;
 }
+
 .addressFooter {
-    
+
     position: absolute;
     width: 314px;
     height: 23px;
@@ -835,8 +840,8 @@ footer {
     display: flex;
     align-items: center;
     padding: 0;
-    
-    justify-content:space-around;
+
+    justify-content: space-around;
     // white-space: nowrap;
 
     font-family: 'Georgia';
@@ -849,9 +854,10 @@ footer {
     letter-spacing: 0.06em;
 
     /* color-primary */
-    
+
     color: #F1CDB3;
 }
+
 .addressCityFooter {
 
     position: absolute;
@@ -862,8 +868,8 @@ footer {
     display: flex;
     align-items: center;
     padding: 0;
-    
-    justify-content:space-around;
+
+    justify-content: space-around;
     // white-space: nowrap;
 
     font-family: 'Georgia';
@@ -876,6 +882,58 @@ footer {
     letter-spacing: 0.06em;
 
     /* color-primary */
-    
+
     color: #F1CDB3;
+}
+
+.btnActivBackground {
+    &:hover {
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 3px solid #F1CDB3;
+        ;
+    }
+}
+
+.btnActiv {
+    &:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+
+    }
+}
+
+.activCard {
+
+    &:hover {
+
+        cursor: pointer;
+        background-color: #F1CDB3;
+
+        .pet-name {
+            background-color: #F1CDB3;
+        }
+
+        .btn {
+            background-color: #F1CDB3;
+            border: 2px solid #FFFFFF;
+        }
+    }
+}
+
+.aLinkTextHover {
+    color: #CDCDCD;
+    ;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+}
+
+.aLinkBtn {
+    color: #292929;
+    text-decoration: none;
+
 }
