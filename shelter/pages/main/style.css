@@ -89,7 +89,7 @@ p.subtitile {
 }
 
 .white {
-  color: #FAFAFA;
+  color: #F1CDB3;
 }
 
 .nav {
@@ -929,7 +929,7 @@ footer {
 
 .aLinkTextHover:hover {
   cursor: pointer;
-  color: #FFFFFF;
+  color: #F1CDB3;
 }
 
 .aLinkBtn {
