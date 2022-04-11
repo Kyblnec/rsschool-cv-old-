@@ -579,7 +579,7 @@ h2 {
     display: flex;
     position: absolute;
     width: 1186px;
-    height: 890px;
+    height: 810px;
     top: 2076px+ 908px;
     padding-left: 94px;
     // flex-direction: row;
@@ -667,9 +667,9 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     white-space: nowrap;
-   
+
     font-family: 'Georgia';
-    font-style:normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
@@ -683,27 +683,199 @@ h2 {
 
     color: #545454;
 }
+
 .textAfterDonation {
     position: absolute;
-width: 380px;
-height: 72px;
-left: 718px;
-top: 290px;
-margin: 0;
+    width: 380px;
+    height: 72px;
+    left: 718px;
+    top: 290px;
+    margin: 0;
 
-/* donation-description */
+    /* donation-description */
 
-font-family: 'Arial';
-font-style: italic;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-/* color-dark-m */
+    /* color-dark-m */
 
-color: #B2B2B2;
+    color: #B2B2B2;
+}
+
+footer {
+    /* footer-gradient-background */
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    left: 320px;
+    right: 0%;
+    top: 2537px + 908px;
+
+    /* footer-gradient-background */
+
+    background:
+    radial-gradient(110.67% 538.64% at 5.73% 50%,
+     #513D2F 0%, #1A1A1C 100%),
+        #211F20;
+}
+
+.footerBigTxt {
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    letter-spacing: 0.06em;
+
+    /* color-light-xl */
+
+    color: #FFFFFF;
+
+}
+
+.positionLeft {
+    position: absolute;
+    width: 279px;
+    height: 90px;
+    left: 40px;
+    top: 57px;
+    margin: 0px;
+
+}
+
+.positionRight {
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 478px;
+    top: 57px;
+    margin: 0px;
+
+}
+
+.footerDog {
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: 940px;
+    top: 40px;
+}
+.emailFooter {
+
+    position: absolute;
+    width: 272px;
+    height: 23px;
+    left: 30px + 320px;
+    top: 2728px + 908px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+    justify-content:space-around;
+    // white-space: nowrap;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    /* color-primary */
+    
+    color: #F1CDB3;
+}
+
+.numberPhoneFooter {
+
+    position: absolute;
+    width: 260px;
+    height: 23px;
+    left: 30px + 320px;
+    top: 2801px + 908px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+    justify-content:space-around;
+    // white-space: nowrap;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    /* color-primary */
+    
+    color: #F1CDB3;
+}
+.addressFooter {
+    
+    position: absolute;
+    width: 314px;
+    height: 23px;
+    left: 468px + 320px;
+    top: 2727px + 908px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+    justify-content:space-around;
+    // white-space: nowrap;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    /* color-primary */
+    
+    color: #F1CDB3;
+}
+.addressCityFooter {
+
+    position: absolute;
+    width: 290px;
+    height: 23px;
+    left: 468px + 320px;
+    top: 2800px + 908px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+    justify-content:space-around;
+    // white-space: nowrap;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    /* color-primary */
+    
+    color: #F1CDB3;
 }
