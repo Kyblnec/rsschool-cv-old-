@@ -278,11 +278,10 @@ h3 {
     padding-left: 94px;
     // flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     /* color-light-l */
 
     background: #F6F6F6
-
 }
 
 .ourFriends {
@@ -333,6 +332,7 @@ h3 {
     align-items: center;
     border-radius: 9px;
 }
+
 .card2 {
     background-color: #FAFAFA;
     // width: 270px;
@@ -409,6 +409,7 @@ h3 {
 
     color: #292929;
 }
+
 .btnGet {
     background-color: #F1CDB3;
     position: absolute;
@@ -440,8 +441,46 @@ h3 {
     /* color-dark-3xl */
 
     color: #292929;
-
 }
 
+.sliderRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 20px;
 
 
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1171px + 320px;
+    top: 1918px;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.sliderLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 20px;
+
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 59px + 320px;
+    top: 1918px;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
