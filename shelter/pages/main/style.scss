@@ -194,7 +194,7 @@ h2 {
     top: 80 + 908px;
 }
 
-h3 {
+.cozyHouse {
     position: absolute;
     width: 370px;
     height: 90px;
@@ -444,6 +444,7 @@ h3 {
 }
 
 .sliderRight {
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -454,7 +455,7 @@ h3 {
     position: absolute;
     width: 52px;
     height: 52px;
-    left: 1171px + 320px;
+    left: 1190px + 320px;
     top: 1918px;
 
     /* color-primary */
@@ -465,6 +466,7 @@ h3 {
 }
 
 .sliderLeft {
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -475,7 +477,7 @@ h3 {
     position: absolute;
     width: 52px;
     height: 52px;
-    left: 59px + 320px;
+    left: 39px + 320px;
     top: 1918px;
 
     /* color-primary */
@@ -483,4 +485,225 @@ h3 {
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
+}
+
+.howHelp {
+    position: absolute;
+    width: 310px;
+    height: 90px;
+    left: 482px + 320px;
+    top: 1510px + 908px;
+
+    /* h3 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.positionMiniCard {
+    top: 2578px;
+    left: 308px;
+    width: 1280px;
+    height: 43px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.miniCardHelpShelter {
+    // position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 210px;
+    height: 143px;
+    margin: 10px;
+    // left: 1110px;
+    // top: 2700px;
+
+
+}
+
+.textHelpShelter {
+    /* Text */
+    // position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 82px;
+    height: 23px;
+    left: 0px;
+    top: 90px;
+    white-space: nowrap;
+    margin: 0;
+
+    /* h4 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.grayBackgroundSecond {
+    display: flex;
+    position: absolute;
+    width: 1186px;
+    height: 890px;
+    top: 2076px+ 908px;
+    padding-left: 94px;
+    // flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* color-light-l */
+
+    background: #F6F6F6
+}
+
+.sadDog {
+    position: absolute;
+    width: 505px;
+    height: 261px;
+    left: 183px;
+    top: 91px;
+}
+
+.textDonation {
+    /* Heading */
+
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 718px;
+    top: 81px;
+    margin: 0;
+
+    /* h3 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.nameBank {
+    position: absolute;
+    width: 307px;
+    height: 17px;
+    left: 718px;
+    top: 191px;
+    margin: 0;
+    white-space: nowrap;
+
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.numberCardDonation {
+    background-color: #F1CDB3;
+    position: absolute;
+    width: 319px;
+    height: 23px;
+    left: 718px;
+    top: 227px;
+    padding: 10px 15px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+   
+    font-family: 'Georgia';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+.textAfterDonation {
+    position: absolute;
+width: 380px;
+height: 72px;
+left: 718px;
+top: 290px;
+margin: 0;
+
+/* donation-description */
+
+font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+/* color-dark-m */
+
+color: #B2B2B2;
 }
