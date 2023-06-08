@@ -1,2 +1,2 @@
 Telegram: @vladigraff
-https://Kyblnec.github.io/rsschool-cv/
+https://rolling-scopes-school.github.io/kyblnec-JSFE2022Q1/shelter/pages/main/
